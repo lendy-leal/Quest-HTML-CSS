@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+    .main-page {
+        font-size: 1.8rem;
+    }
+    .main-page .main-content .home-page {
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 3rem;
+    }
+
+    .main-page .main-content .home-page img {
+        width: 75%;
+    }
+
+    .main-page .main-content .main-mockups {
+        flex-direction: column;
+        align-items: center;
+        gap: 8rem;
+    }
+
+    .main-page .main-content .main-mockups img {
+        width: 75%;
+    }
+
+    .main-page .main-content .main-mockups .main-apresentation {
+        align-items: center;
+        width: 75%;
+    }
+
+    .main-page .main-content .main-mockups .btn-register {
+        padding: 2rem 20%;
+    }
+
+    .main-page .main-content .social-media {
+        justify-content: center;
+        margin-top: 10rem;
+    }
+}
